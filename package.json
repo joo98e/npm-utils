@@ -1,0 +1,23 @@
+{
+  "name": "@joo98e/utils",
+  "version": "1.0.2",
+  "description": "nexus module update",
+  "scripts": {
+    "build": "webpack --progress",
+    "pub": "yarn publish --access public --scope=@joo98e"
+  },
+  "author": "joo98e",
+  "license": "joo98e",
+  "main": "./dist/utils.js",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "lodash": "^4.17.21",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "publishConfig": {
+    "registry": "http://127.0.0.1:8081/repository/common/"
+  }
+}
